@@ -1,0 +1,12 @@
+.textField {
+    width: 100%;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    padding: 10px 30px;
+    border: 0;
+    font-size: large;
+}
