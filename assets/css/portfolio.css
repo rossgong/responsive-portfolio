@@ -1,13 +1,6 @@
 .portfolioProject {
-    height: 50%;
-    width: 50%;
     position: relative;
     border: 30px solid white;
-}
-
-.projectImage {
-    height: auto;
-    max-width: 100%;
 }
 
 .projectLink {
@@ -24,4 +17,11 @@
     bottom: 20px;
     left: 0;
     text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .portfolioProject {
+        display: block;
+        text-align: center;
+    }
 }
